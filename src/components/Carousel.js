@@ -122,24 +122,6 @@ class Carousel extends React.Component {
         }
           </Row>
         </div>
-        {/* <h2>
-          Other Works and Projects:
-        </h2>
-        <div>
-
-          <Row className="justify-content-around">
-        { this.state.items.map((item) => {
-          if (item.type === 'other') {
-            return (
-                <Col>
-                  {this.makeItems(item)}
-              </Col>
-            )
-          }
-        })
-        }
-          </Row>
-        </div> */}
 
         <div>
 
@@ -149,7 +131,7 @@ class Carousel extends React.Component {
               imagePadding={30}
               enableZoom={true}
               imageTitle={this.state.items[this.state.photoIndex].title}
-          imageCaption={this.state.items[this.state.photoIndex].subTitle}
+              imageCaption={this.state.items[this.state.photoIndex].subTitle}
               mainSrc={images[this.state.photoIndex]}
               nextSrc={images[(this.state.photoIndex + 1) % images.length]}
               prevSrc={images[(this.state.photoIndex + images.length - 1) % images.length]}

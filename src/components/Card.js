@@ -12,10 +12,9 @@ function Card(props) {
           <div className="image-container">
             <img className="g-card-image-website" src={props.item.imgSrc} alt={props.item.imgSrc} />
             <span className="display-inline">
-              Visit {props.item.title} 
+              Visit {props.item.title}
               <a className={`${props.item.title == 'COVID-19' && 'disabled'}`} style={{ textDecoration: 'none' }} href={props.item.link} target='_blank'>
                 {' here'}
-                {/* {`chat-message ${message.received && 'chat-reciever'}`} */}
               </a>
             </span>
           </div>
