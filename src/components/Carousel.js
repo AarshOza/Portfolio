@@ -88,6 +88,7 @@ class Carousel extends React.Component {
 
   render() {
     const images = [
+      InstagramClone,
       AnimeBlog,
       Connect4U,
       adminpanel,
