@@ -6,7 +6,7 @@ import Connect4U from '../assets/images/Connect4U.png';
 import RNNews from '../assets/images/RNNews.jpg';
 import adminpanel from '../assets/images/adminpanel.png';
 import Covid19 from '../assets/images/Covid19.png';
-import InstagramClone from '../assets/images/InstagramClone.jpg';
+import InstagramClone from '../assets/images/InstagramClone.png';
 import { Col, Container, Row } from 'react-bootstrap';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
