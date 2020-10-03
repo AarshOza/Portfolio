@@ -6,20 +6,30 @@ import Connect4U from '../assets/images/Connect4U.png';
 import RNNews from '../assets/images/RNNews.jpg';
 import adminpanel from '../assets/images/adminpanel.png';
 import Covid19 from '../assets/images/Covid19.png';
+import InstagramClone from '../assets/images/InstagramClone.jpg';
 import { Col, Container, Row } from 'react-bootstrap';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 
 class Carousel extends React.Component {
   constructor(props) {
-    super (props);
+    super(props);
     this.state = {
       photoIndex: 0,
       isOpen: false,
       windowWidth: window.innerWidth,
       items: [
         {
-          id:0,
+          id: 0,
+          title: 'Instagram Clone',
+          subTitle: 'Instagram Clone with react JS and Firebase',
+          imgSrc: InstagramClone,
+          link: 'https://instagram-clone-9fff4.web.app',
+          selected: false,
+          type: 'website'
+        },
+        {
+          id: 1,
           title: 'Anime Blog',
           subTitle: 'A blog for Anime and Manga Lovers',
           imgSrc: AnimeBlog,
@@ -28,7 +38,7 @@ class Carousel extends React.Component {
           type: 'website'
         },
         {
-          id: 1,
+          id: 2,
           title: 'Connect4U',
           subTitle: 'Connect with like minded people',
           imgSrc: Connect4U,
@@ -37,7 +47,7 @@ class Carousel extends React.Component {
           type: 'website'
         },
         {
-          id: 2,
+          id: 3,
           title: 'Admin Panel',
           subTitle: "Administrator's Workplace",
           imgSrc: adminpanel,
@@ -46,7 +56,7 @@ class Carousel extends React.Component {
           type: 'website'
         },
         {
-          id: 3,
+          id: 4,
           title: 'COVID-19',
           subTitle: "The pandemic situation all over the world",
           imgSrc: Covid19,
@@ -55,7 +65,7 @@ class Carousel extends React.Component {
           type: 'website'
         },
         {
-          id: 4,
+          id: 5,
           title: 'RN News',
           subTitle: "Stay updated with latest news for all countries in local languages",
           imgSrc: RNNews,
@@ -73,7 +83,7 @@ class Carousel extends React.Component {
   }
 
   makeItems = (item) => {
-      return<Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
+    return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
   }
 
   render() {
@@ -84,23 +94,24 @@ class Carousel extends React.Component {
       Covid19,
       RNNews,
     ];
-    return(
+    return (
       <Container fluid={true}>
         <h2>
           Websites:
         </h2>
         <div>
 
-          <Row  className="justify-content-around">
-        { this.state.items.map((item) =>{
-          if (item.type ==='website') {
-          return(
-            <Col>
-                {this.makeItems(item)}
-            </Col>
-          )}
-        })
-        }
+          <Row className="justify-content-around">
+            {this.state.items.map((item) => {
+              if (item.type === 'website') {
+                return (
+                  <Col>
+                    {this.makeItems(item)}
+                  </Col>
+                )
+              }
+            })
+            }
           </Row>
         </div>
         <h2>
@@ -108,18 +119,18 @@ class Carousel extends React.Component {
         </h2>
         <div>
 
-          <Row  className="justify-content-around">
-        { this.state.items.map((item) => {
-          if (item.type === 'app') {
-            return (
+          <Row className="justify-content-around">
+            {this.state.items.map((item) => {
+              if (item.type === 'app') {
+                return (
                   <Col>
                     {this.makeItems(item)}
                   </Col>
-            )
-          }
+                )
+              }
 
-        })
-        }
+            })
+            }
           </Row>
         </div>
 
