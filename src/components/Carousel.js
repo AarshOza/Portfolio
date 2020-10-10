@@ -7,8 +7,8 @@ import RNNews from '../assets/images/RNNews.jpg';
 import adminpanel from '../assets/images/adminpanel.png';
 import Covid19 from '../assets/images/Covid19.png';
 import InstagramClone from '../assets/images/InstagramClone.png';
-import MessengerClone from '../assets/images/MessengerClone.png'
-import iMessageClone from '../assets/images/iMessageClone.png'
+import MessengerClone from '../assets/images/MessengerClone.png';
+import iMessageClone from '../assets/images/iMessageClone.png';
 import { Col, Container, Row } from 'react-bootstrap';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
