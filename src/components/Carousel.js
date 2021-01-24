@@ -9,6 +9,7 @@ import Covid19 from '../assets/images/Covid19.png';
 import InstagramClone from '../assets/images/InstagramClone.png';
 import MessengerClone from '../assets/images/MessengerClone.png';
 import iMessageClone from '../assets/images/iMessageClone.png';
+import NetflixClone from '../assets/images/NetflixClone.png';
 import { Col, Container, Row } from 'react-bootstrap';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
@@ -23,6 +24,15 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
+          title: 'Netflix Clone',
+          subTitle: 'Netflix Clone with react JS',
+          imgSrc: NetflixClone,
+          link: 'https://netflix-clone-bcbab.web.app',
+          selected: false,
+          type: 'website'
+        },
+        {
+          id: 1,
           title: 'iMessage Clone',
           subTitle: 'iMessage Clone with react JS and Firebase',
           imgSrc: iMessageClone,
@@ -31,7 +41,7 @@ class Carousel extends React.Component {
           type: 'website'
         },
         {
-          id: 1,
+          id: 2,
           title: 'Instagram Clone',
           subTitle: 'Instagram Clone with react JS and Firebase',
           imgSrc: InstagramClone,
@@ -40,7 +50,7 @@ class Carousel extends React.Component {
           type: 'website'
         },
         {
-          id: 2,
+          id: 3,
           title: 'Facebook Messenger Clone',
           subTitle: 'Facebook Messenger Clone with react JS and Firebase',
           imgSrc: MessengerClone,
@@ -49,7 +59,7 @@ class Carousel extends React.Component {
           type: 'website'
         },
         {
-          id: 3,
+          id: 4,
           title: 'Anime Blog',
           subTitle: 'A blog for Anime and Manga Lovers',
           imgSrc: AnimeBlog,
@@ -58,7 +68,7 @@ class Carousel extends React.Component {
           type: 'website'
         },
         {
-          id: 4,
+          id: 5,
           title: 'Connect4U',
           subTitle: 'Connect with like minded people',
           imgSrc: Connect4U,
@@ -67,7 +77,7 @@ class Carousel extends React.Component {
           type: 'website'
         },
         {
-          id: 5,
+          id: 6,
           title: 'Admin Panel',
           subTitle: "Administrator's Workplace",
           imgSrc: adminpanel,
@@ -76,7 +86,7 @@ class Carousel extends React.Component {
           type: 'website'
         },
         {
-          id: 6,
+          id: 7,
           title: 'COVID-19',
           subTitle: "The pandemic situation all over the world",
           imgSrc: Covid19,
@@ -85,7 +95,7 @@ class Carousel extends React.Component {
           type: 'website'
         },
         {
-          id: 7,
+          id: 8,
           title: 'RN News',
           subTitle: "Stay updated with latest news for all countries in local languages",
           imgSrc: RNNews,
@@ -108,6 +118,7 @@ class Carousel extends React.Component {
 
   render() {
     const images = [
+      NetflixClone,
       iMessageClone,
       InstagramClone,
       MessengerClone,
