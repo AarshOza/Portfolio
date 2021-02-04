@@ -27,7 +27,7 @@ class Carousel extends React.Component {
           title: 'Netflix Clone',
           subTitle: 'Netflix Clone with react JS',
           imgSrc: NetflixClone,
-          link: 'https://netflix-clone-bcbab.web.app',
+          link: 'https://netflix-clone-10469.web.app',
           selected: false,
           type: 'website'
         },
