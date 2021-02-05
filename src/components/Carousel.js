@@ -81,7 +81,7 @@ class Carousel extends React.Component {
           title: 'Admin Panel',
           subTitle: "Administrator's Workplace",
           imgSrc: adminpanel,
-          link: 'http://adminpanel-sandbox.aarshoza.me/',
+          link: 'https://adminpanel-sandbox.aarshoza.me/',
           selected: false,
           type: 'website'
         },
