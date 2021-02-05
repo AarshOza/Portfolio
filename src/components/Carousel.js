@@ -63,7 +63,7 @@ class Carousel extends React.Component {
           title: 'Anime Blog',
           subTitle: 'A blog for Anime and Manga Lovers',
           imgSrc: AnimeBlog,
-          link: 'https://anime-blog.vercel.app/',
+          link: 'http://anime-blog.aarshoza.me/',
           selected: false,
           type: 'website'
         },
@@ -72,7 +72,7 @@ class Carousel extends React.Component {
           title: 'Connect4U',
           subTitle: 'Connect with like minded people',
           imgSrc: Connect4U,
-          link: 'https://connect4-u.vercel.app/',
+          link: 'http://connect4-u.aarshoza.me/',
           selected: false,
           type: 'website'
         },
@@ -81,7 +81,7 @@ class Carousel extends React.Component {
           title: 'Admin Panel',
           subTitle: "Administrator's Workplace",
           imgSrc: adminpanel,
-          link: 'https://admin-panel.aarshoza.vercel.app',
+          link: 'http://adminpanel-sandbox.aarshoza.me/',
           selected: false,
           type: 'website'
         },
@@ -90,7 +90,7 @@ class Carousel extends React.Component {
           title: 'COVID-19',
           subTitle: "The pandemic situation all over the world",
           imgSrc: Covid19,
-          link: 'https://covid-19-sand.vercel.app/',
+          link: 'http://covid-19-sandbox.aarshoza.me/',
           selected: false,
           type: 'website'
         },
