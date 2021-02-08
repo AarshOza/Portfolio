@@ -91,7 +91,7 @@ class ContactPage extends React.Component {
 
     let templateParams = {
       from_name: this.state.email,
-      to_name: 'aarshoza@gmail.com',
+      to_name: 'aarsh@aarshoza.me',
       message: this.state.message,
       name: this.state.name
     }
