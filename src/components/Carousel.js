@@ -27,7 +27,7 @@ class Carousel extends React.Component {
           title: 'Netflix Clone',
           subTitle: 'Netflix Clone with react JS',
           imgSrc: NetflixClone,
-          link: 'https://netflix-clone-10469.web.app',
+          link: 'https://netflix.aarshoza.me/',
           selected: false,
           type: 'website'
         },
@@ -36,7 +36,7 @@ class Carousel extends React.Component {
           title: 'iMessage Clone',
           subTitle: 'iMessage Clone with react JS and Firebase',
           imgSrc: iMessageClone,
-          link: 'https://imessage-clone-b7f3a.web.app',
+          link: 'https://imessage.aarshoza.me/',
           selected: false,
           type: 'website'
         },
@@ -45,7 +45,7 @@ class Carousel extends React.Component {
           title: 'Instagram Clone',
           subTitle: 'Instagram Clone with react JS and Firebase',
           imgSrc: InstagramClone,
-          link: 'https://instagram-clone-9fff4.web.app',
+          link: 'https://instagram.aarshoza.me/',
           selected: false,
           type: 'website'
         },
@@ -54,7 +54,7 @@ class Carousel extends React.Component {
           title: 'Facebook Messenger Clone',
           subTitle: 'Facebook Messenger Clone with react JS and Firebase',
           imgSrc: MessengerClone,
-          link: 'https://messenger-clone-74bb4.web.app/',
+          link: 'https://messenger.aarshoza.me/',
           selected: false,
           type: 'website'
         },
