@@ -31,7 +31,7 @@ class Carousel extends React.Component {
           link: 'https://amazon.aarshoza.me/',
           selected: false,
           type: 'website'
-        },{
+        }, {
           id: 1,
           title: 'Netflix Clone',
           subTitle: 'Netflix Clone with react JS',
@@ -119,6 +119,7 @@ class Carousel extends React.Component {
   handleCardClick = (id, card) => {
     this.setState({ isOpen: true, photoIndex: id })
     console.log(id, this.state.photoIndex)
+    window.open(this.state.items[id].link, "_blank")
   }
 
   makeItems = (item) => {
